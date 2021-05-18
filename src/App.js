@@ -1,11 +1,16 @@
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import AppBody from "./components/appBody/app.body";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Yoooooooo</h1>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <h1>React / Redux Discord Lite Clone</h1>
+        <AppBody />
+      </div>
+    );
+  }
 }
 
 export default App;

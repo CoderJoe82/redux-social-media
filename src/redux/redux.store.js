@@ -2,6 +2,8 @@ import { createStore } from "redux";
 
 const initialState = {
   posts: [],
+  onlineUsers: [],
+  offlineUsers: []
 };
 
 const reducer = (state = initialState, action) => {
