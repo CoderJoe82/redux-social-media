@@ -1,0 +1,81 @@
+/* Main parts of server column */
+
+#serverList {
+  width: 13%;
+  height: 100%;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+#sizeSpot {
+  width: 100%;
+  height: 6%;
+  background-color: rgb(48, 48, 48);
+  border-top-left-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#serverSpot {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Size Buttons */
+
+#closeButton {
+  border-radius: 50%;
+  height: 52%;
+  width: 15%;
+  background-color: red;
+  position: relative;
+}
+
+#close {
+  position: absolute;
+  top: -1%;
+  left: 0;
+  right: 0;
+}
+
+#minimizeButton {
+  border-radius: 50%;
+  height: 52%;
+  width: 15%;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+#maximizeButton {
+  border-radius: 50%;
+  height: 52%;
+  width: 15%;
+  background-color: rgb(5, 167, 5);
+}
+
+#max {
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Server Selection Area */
+
+.addServer {
+    width: 60%;
+    height: 15%;
+    background-color: rgb(48, 48, 48);
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#add, #movies, #games {
+  color: white;
+}
